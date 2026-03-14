@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Ovan Priatna</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins, sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#000;
+border-bottom:2px solid gold;
+position:sticky;
+top:0;
+}
+
+nav h1{
+color:gold;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav ul li{
+cursor:pointer;
+}
+
+nav ul li:hover{
+color:gold;
+}
+
+/* HERO */
+
+.hero{
+padding:100px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+}
+
+.hero img{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid gold;
+margin-bottom:20px;
+}
+
+.hero h2{
+font-size:38px;
+}
+
+.hero span{
+color:gold;
+}
+
+.hero p{
+margin-top:20px;
+max-width:500px;
+font-size:18px;
+line-height:1.7;
+color:#ddd;
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+/* TITLE */
+
+.title{
+color:gold;
+font-size:30px;
+margin-bottom:30px;
+padding-bottom:10px;
+border-bottom:3px solid gold;
+}
+
+/* TEXT */
+
+.about{
+line-height:1.7;
+max-width:700px;
+}
+
+/* GRID */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill-box{
+background:#111;
+padding:20px;
+border:1px solid gold;
+border-radius:10px;
+text-align:center;
+}
+
+/* LIST BOX */
+
+.list-box{
+background:#111;
+padding:20px;
+margin-bottom:20px;
+border-left:4px solid gold;
+}
+
+/* CONTACT */
+
+.contact-box{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.contact-item{
+background:#111;
+border:1px solid gold;
+padding:20px;
+width:230px;
+border-radius:10px;
+text-decoration:none;
+color:white;
+display:flex;
+flex-direction:column;
+font-size:18px;
+transition:0.3s;
+}
+
+.contact-item span{
+font-size:14px;
+color:#ccc;
+margin-top:5px;
+}
+
+.contact-item:hover{
+background:gold;
+color:black;
+transform:scale(1.05);
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+border-top:1px solid gold;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<h1>Portfolio</h1>
+</nav>
+
+<div class="hero">
+
+<img src="foto.jpg">
+
+<h2>Halo, Saya <span>Ovan Priatna</span></h2>
+
+<p>
+Desainer Arsitektur yang telah berpengalaman di bidang struktur dan
+perencanaan pembangunan selama kurang lebih 7 tahun dengan berbagai
+project yang telah diselesaikan dengan hasil memuaskan.
+</p>
+
+</div>
+
+<section id="about">
+
+<h2 class="title">Tentang Saya</h2>
+
+<div class="about">
+Saya adalah seorang desainer arsitektur yang berpengalaman dalam
+perencanaan pembangunan dan desain struktur serta menguasai berbagai
+software desain arsitektur.
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Keahlian</h2>
+
+<div class="skills">
+
+<div class="skill-box">SketchUp</div>
+<div class="skill-box">AutoCAD</div>
+<div class="skill-box">Vray</div>
+<div class="skill-box">Lumion</div>
+<div class="skill-box">D5 Render</div>
+<div class="skill-box">Revit</div>
+<div class="skill-box">ArcGIS</div>
+<div class="skill-box">RAB & Document Project</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2 class="title">Pengalaman</h2>
+
+<div class="list-box">2017 (3 bulan) | PT. Cahaya Sedayu Gemilang (PKL Pengawas Lapangan)</div>
+<div class="list-box">2019 | PT. Inti Persada Nusantara (Drafter)</div>
+<div class="list-box">2019 - Now | PT. Reka Cipta Arta (Tenaga Ahli Desain Arsitektur)</div>
+<div class="list-box">2023 | CV. Wijaya Manunggal (Pelaksana Lapangan)</div>
+<div class="list-box">2022 - Now | CV. Pelita Agung Mandiri (Manager)</div>
+<div class="list-box">2023 - Now | CV. Manis Sukses Bersama (Direktur Teknik)</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="title">Pendidikan</h2>
+
+<div class="list-box">TK Al Hidayah 2 Ganeas</div>
+<div class="list-box">SDN Ganeas 2</div>
+<div class="list-box">SMPN 1 Ganeas</div>
+<div class="list-box">SMKN 1 Sumedang - Teknik Gambar Bangunan</div>
+<div class="list-box">Universitas Winaya Mukti - Teknik Arsitektur</div>
+
+</section>
+
+<section id="sertifikasi">
+
+<h2 class="title">Sertifikasi</h2>
+
+<div class="list-box">
+Desain Dengan Bantuan Komputer Lv 3 KKNI  
+Institution : LSK - TIK (2022)
+</div>
+
+<div class="list-box">
+Jasa Konstruksi Pelaksana Pekerjaan Jalan  
+Institution : Gatensi Karya Konstruksi Professional Certification Agency (2022)
+</div>
+
+<div class="list-box">
+Jasa Konstruksi Pelaksana Pekerjaan Bangunan Air dan Irigasi  
+Institution : Hatsindo Professional Certification Agency (2025)
+</div>
+
+</section>
+
+<section id="organisasi">
+
+<h2 class="title">Achievement & Organisasi</h2>
+
+<div class="list-box">2014-2015 OSIS SMPN 1 Ganeas</div>
+<div class="list-box">2014-2020 Ketua IRMA Masjid Al-Munawar Ganeas</div>
+<div class="list-box">2017-2018 Sekretaris Sekolah Negarawan Rumah Imperium</div>
+<div class="list-box">2017-2021 Ketua Umum Karang Taruna CKA Desa Ganeas</div>
+<div class="list-box">2021-2025 Chief Leader HC 2 Game House Elion That Bow</div>
+<div class="list-box">2025-Now Dewan Penasehat HC 2 Game House Elion That Bow</div>
+<div class="list-box">2024-Now Sekretaris Jenderal DPC PBESI Kab. Sumedang</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Kontak</h2>
+
+<div class="contact-box">
+
+<a href="mailto:priyatnaovan@gmail.com" class="contact-item">
+📧 Email
+<span>priyatnaovan@gmail.com</span>
+</a>
+
+<a href="https://wa.me/6285941000063" target="_blank" class="contact-item">
+💬 WhatsApp
+<span>+62 859-4100-0063</span>
+</a>
+
+<a href="https://maps.google.com/?q=Ganeas 4,Ganeas,Ganeas,Sumedang (45356)" target="_blank" class="contact-item">
+📍 Alamat
+<span>Ganeas 4,Ganeas,Ganeas, Sumedang (45356)</span>
+</a>
+
+<a href="https://instagram.com/ovanpriatn_" target="_blank" class="contact-item">
+📷 Instagram
+<span>@ovanpriatn_</span>
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Portfolio Ovan Priatna
+</footer>
+
+<script>
+
+function scrollToSection(id){
+document.getElementById(id).scrollIntoView({
+behavior:"smooth"
+});
+}
+
+</script>
+
+</body>
+</html>
